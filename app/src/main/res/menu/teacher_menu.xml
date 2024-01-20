@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_teacher_test"
+        android:icon="@drawable/ic_action_test"
+        android:title="測驗" />
+    <item
+        android:id="@+id/navigation_teacher_rollcall"
+        android:icon="@drawable/ic_action_sign"
+        android:title="點名" />
+    <item
+        android:id="@+id/navigation_teacher_group"
+        android:icon="@drawable/ic_action_group"
+        android:title="分組" />
+
+</menu>

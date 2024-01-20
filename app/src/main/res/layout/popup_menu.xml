@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/announcement"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/announcement_icon" />
+
+    <TextView
+        android:id="@+id/announcement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/image1"
+        android:text="高科大山水吟遊攝影展 罕見攝影結合書藝跨域呈現國家公園景"
+        android:textColor="@color/black"
+        android:maxLines="1"
+        android:ellipsize="end"/>
+
+    <ImageButton
+        android:id="@+id/cancel_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_toLeftOf="@+id/expand_btn"
+        android:background="@drawable/ic_action_return" />
+
+    <ImageButton
+        android:id="@+id/expand_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/ic_action_expand" />
+</RelativeLayout>

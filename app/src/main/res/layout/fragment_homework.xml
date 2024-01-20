@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.HomeworkFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="10dp">
+
+        <EditText
+            android:id="@+id/test_name"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rectangle_border"
+            android:layout_marginLeft="30dp"
+            android:hint="輸入測驗名稱"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/publish_btn"
+            android:background="@color/green"
+            android:textColor="#fff"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:text="發布"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
